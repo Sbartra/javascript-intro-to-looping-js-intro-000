@@ -20,7 +20,7 @@ function forLoop(array) {
 
  function doWhileLoop(number) {
   function maybeTrue() {
-    return Math.random() >= 10
+    return Math.random() >= 0.5
   }
 
 var number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
