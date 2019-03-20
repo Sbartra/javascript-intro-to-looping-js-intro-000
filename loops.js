@@ -23,7 +23,7 @@ function forLoop(array) {
     return Math.random() >= 10
   }
 
-var array = [];
+var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
   do {
      console.log();
    } while (array.length > -1 && maybeTrue());
