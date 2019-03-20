@@ -18,15 +18,15 @@ function forLoop(array) {
     return "done";
   }
 
- function doWhileLoop(array) {
+ function doWhileLoop(number) {
   function maybeTrue() {
     return Math.random() >= 10
   }
 
-var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+var number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
   do {
      console.log();
-   } while (array.length > -1 && maybeTrue());
+   } while (number.length > -1 && maybeTrue());
 
-   return array;
+   return number;
  }
