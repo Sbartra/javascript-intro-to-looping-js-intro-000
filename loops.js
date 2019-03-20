@@ -22,11 +22,11 @@ function forLoop(array) {
 
    function doWhileLoop(num) {
    function maybeTrue() {
-     return Math.random() >= 0.5
+     return Math.random() >= 10
    }
 
    do {
      console.log("I run once regardless.");
-   } while (num.length > -1 && maybeTrue());
+   } while (num.length > 0 && maybeTrue());
      return num;
  }
