@@ -18,17 +18,12 @@ function forLoop(array) {
     return "done";
   }
 
-
-
- function doWhileLoop(number) {
   function maybeTrue() {
-    return Math.random() >= 0.5
-  }
+     return Math.random() >= 0.5
+   }
 
-var i=0;
-  do {
-     console.log();
-   } while (number.length > -1 && maybeTrue());
 
-   return number;
- }
+  function doWhileLoop(array) {
+   do {array.pop()}
+   while (array.length > 0 && maybeTrue());
+   return array}
