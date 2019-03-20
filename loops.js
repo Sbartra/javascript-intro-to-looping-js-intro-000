@@ -25,7 +25,8 @@ function forLoop(array) {
 
 var array = [];
   do {
-     console.log("I run once regardless.");
+     array.pop();
+     forLoop(array);
    } while (array.length > -1 && maybeTrue());
 
    return array;
