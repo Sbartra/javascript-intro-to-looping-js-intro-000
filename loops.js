@@ -26,7 +26,7 @@ var array= 0;
 
   function doWhileLoop(array) {
    do {
-     console.log()
+     console.log("I run once regardless.")
    }
    while (array.length > 0 && maybeTrue());
    return array
