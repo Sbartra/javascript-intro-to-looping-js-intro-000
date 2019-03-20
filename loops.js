@@ -22,15 +22,15 @@ function forLoop(array) {
      return Math.random() >= 0.5
    }
 
-   var i = 0;
 
-   function doWhileLoop() {
+
+   function doWhileLoop(array) {
      i = i + 1;
      return i;
    }
 
    do {
      console.log("I run once regardless.");
-   } while (doWhileLoop() < 10);
-   return ();
+   } while (doWhileLoop(array) < 10);
+   return array;
  }
