@@ -30,7 +30,7 @@ function forLoop(array) {
    }
 
    do {
-     array.pop();
+     console.log("I run once regardless.");
    } while (array.length > -1 && maybeTrue());
      return array;
  }
