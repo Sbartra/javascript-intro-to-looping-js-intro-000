@@ -19,6 +19,7 @@ function forLoop(array) {
   }
 
  function doWhileLoop(number) {
+   console.log(number)
    do {
       console.log("I run once regardless.");
       --number
