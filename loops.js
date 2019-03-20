@@ -22,8 +22,12 @@ function forLoop(array) {
      return Math.random() >= 0.5
    }
 
+var array= 0;
 
   function doWhileLoop(array) {
-   do {array.pop()}
+   do {
+     console.log()
+   }
    while (array.length > 0 && maybeTrue());
-   return array}
+   return array
+ }
