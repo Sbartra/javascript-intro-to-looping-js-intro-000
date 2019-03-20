@@ -18,15 +18,9 @@ function forLoop(array) {
     return "done";
   }
 
-
-
-   loops doWhileLoop(num) {
-   function maybeTrue() {
-     return Math.random() >= 10
-   }
-
+ function doWhileLoop(number) {
    do {
-     console.log("I run once regardless.");
-   } while (num.length > 0 && maybeTrue());
-     return num;
- }
+      console.log("I run once regardless.");
+      --number
+    } while (number > 0);
+}
