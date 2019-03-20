@@ -23,6 +23,7 @@ function forLoop(array) {
     return Math.random() >= 10
   }
 
+var array = [];
   do {
      console.log("I run once regardless.");
    } while (array.length > -1 && maybeTrue());
