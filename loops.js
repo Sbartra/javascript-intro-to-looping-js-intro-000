@@ -18,7 +18,7 @@ function forLoop(array) {
     return "done";
   }
 
-var number = [];
+var i = 0;
 
  function doWhileLoop(number) {
   function maybeTrue() {
