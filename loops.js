@@ -18,14 +18,14 @@ function forLoop(array) {
     return "done";
   }
 
-var i = 0;
+
 
  function doWhileLoop(number) {
   function maybeTrue() {
     return Math.random() >= 0.5
   }
 
-
+var i=0;
   do {
      console.log();
    } while (number.length > -1 && maybeTrue());
