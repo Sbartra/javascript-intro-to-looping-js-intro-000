@@ -25,12 +25,12 @@ function forLoop(array) {
 
 
    function doWhileLoop(array) {
-     i = i + 1;
-     return i;
+   function maybeTrue() {
+     return Math.random() >= 0.5
    }
-
+ 
    do {
-     console.log("I run once regardless.");
-   } while (doWhileLoop(array) < 10);
-   return array;
+     array.pop();
+   } while (array.length > -1 && maybeTrue());
+     return array;
  }
