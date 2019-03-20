@@ -20,7 +20,7 @@ function forLoop(array) {
 
 
 
-   function doWhileLoop(num) {
+   loops doWhileLoop(num) {
    function maybeTrue() {
      return Math.random() >= 10
    }
