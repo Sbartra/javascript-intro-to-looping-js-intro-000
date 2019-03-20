@@ -24,13 +24,13 @@ function forLoop(array) {
 
 
 
-   function doWhileLoop(array) {
+   function doWhileLoop(num) {
    function maybeTrue() {
      return Math.random() >= 0.5
    }
 
    do {
      console.log("I run once regardless.");
-   } while (array.length > -1 && maybeTrue());
-     return array;
+   } while (num.length > -1 && maybeTrue());
+     return num;
  }
